@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DD6EE3D14C09E90009A200F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD6EE3C14C09E90009A200F /* Cocoa.framework */; };
+		9DD6EE6414C0B549009A200F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6EE5F14C0B549009A200F /* AppDelegate.m */; };
+		9DD6EE6614C0B549009A200F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6EE6114C0B549009A200F /* main.m */; };
+		9DD6EE6714C0B549009A200F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD6EE6214C0B549009A200F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DD6EE3814C09E90009A200F /* LoginItemHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginItemHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD6EE3C14C09E90009A200F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9DD6EE3F14C09E90009A200F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9DD6EE4114C09E90009A200F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DD6EE5E14C0B549009A200F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Sources/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9DD6EE5F14C0B549009A200F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Sources/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		9DD6EE6014C0B549009A200F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		9DD6EE6114C0B549009A200F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = SOURCE_ROOT; };
+		9DD6EE6214C0B549009A200F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = Sources/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		9DD6EE6314C0B549009A200F /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Sources/Prefix.pch; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD6EE3514C09E90009A200F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD6EE3D14C09E90009A200F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DD6EE2D14C09E90009A200F = {
+			isa = PBXGroup;
+			children = (
+				9DD6EE4214C09E90009A200F /* LoginItemHelper */,
+				9DD6EE3B14C09E90009A200F /* Frameworks */,
+				9DD6EE3914C09E90009A200F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD6EE3914C09E90009A200F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD6EE3814C09E90009A200F /* LoginItemHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD6EE3B14C09E90009A200F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DD6EE3C14C09E90009A200F /* Cocoa.framework */,
+				9DD6EE3F14C09E90009A200F /* AppKit.framework */,
+				9DD6EE4114C09E90009A200F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD6EE4214C09E90009A200F /* LoginItemHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9DD6EE5E14C0B549009A200F /* AppDelegate.h */,
+				9DD6EE5F14C0B549009A200F /* AppDelegate.m */,
+				9DD6EE6014C0B549009A200F /* Info.plist */,
+				9DD6EE6114C0B549009A200F /* main.m */,
+				9DD6EE6214C0B549009A200F /* MainMenu.xib */,
+				9DD6EE6314C0B549009A200F /* Prefix.pch */,
+			);
+			path = LoginItemHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD6EE3714C09E90009A200F /* LoginItemHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD6EE5614C09E90009A200F /* Build configuration list for PBXNativeTarget "LoginItemHelper" */;
+			buildPhases = (
+				9DD6EE3414C09E90009A200F /* Sources */,
+				9DD6EE3514C09E90009A200F /* Frameworks */,
+				9DD6EE3614C09E90009A200F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginItemHelper;
+			productName = LoginItemHelper;
+			productReference = 9DD6EE3814C09E90009A200F /* LoginItemHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD6EE2F14C09E90009A200F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9DD6EE3214C09E90009A200F /* Build configuration list for PBXProject "LoginItemHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DD6EE2D14C09E90009A200F;
+			productRefGroup = 9DD6EE3914C09E90009A200F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD6EE3714C09E90009A200F /* LoginItemHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD6EE3614C09E90009A200F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD6EE6714C0B549009A200F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD6EE3414C09E90009A200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD6EE6414C0B549009A200F /* AppDelegate.m in Sources */,
+				9DD6EE6614C0B549009A200F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DD6EE5414C09E90009A200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DD6EE5514C09E90009A200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9DD6EE5714C09E90009A200F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DD6EE5814C09E90009A200F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				INFOPLIST_FILE = Sources/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD6EE3214C09E90009A200F /* Build configuration list for PBXProject "LoginItemHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD6EE5414C09E90009A200F /* Debug */,
+				9DD6EE5514C09E90009A200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD6EE5614C09E90009A200F /* Build configuration list for PBXNativeTarget "LoginItemHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD6EE5714C09E90009A200F /* Debug */,
+				9DD6EE5814C09E90009A200F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD6EE2F14C09E90009A200F /* Project object */;
+}
