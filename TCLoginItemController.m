@@ -28,10 +28,11 @@
 
 - (void) setLaunchAtLoginBundle:(NSBundle*)bundle enabled:(BOOL)enabled
 {
-//    NSLog(@"%@ = %d", bundle.bundleIdentifier, enabled);
+    NSLog(@"%@ = %d", bundle.bundleIdentifier, enabled);
 
-    if (LSRegisterURL((CFURLRef)bundle.bundleURL, TRUE) != noErr) {
-        NSLog(@"LSRegisterURL failed!");
+    OSStatus error = LSRegisterURL((CFURLRef)bundle.bundleURL, TRUE);
+    if (error != noErr) {
+        NSLog(@"LSRegisterURL failed to register %@ [%d]", bundle.bundleURL, error);
     }
 
     if (!SMLoginItemSetEnabled((CFStringRef) bundle.bundleIdentifier, enabled)) {

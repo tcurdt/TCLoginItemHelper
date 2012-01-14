@@ -24,6 +24,7 @@
 		9DD6EE6114C0B549009A200F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = SOURCE_ROOT; };
 		9DD6EE6214C0B549009A200F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = Sources/MainMenu.xib; sourceTree = SOURCE_ROOT; };
 		9DD6EE6314C0B549009A200F /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = Sources/Prefix.pch; sourceTree = SOURCE_ROOT; };
+		9DF9A49414C230AF00CC7EC9 /* LoginItemHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoginItemHelper.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		9DD6EE2D14C09E90009A200F = {
 			isa = PBXGroup;
 			children = (
+				9DF9A49414C230AF00CC7EC9 /* LoginItemHelper.entitlements */,
 				9DD6EE4214C09E90009A200F /* App */,
 				9DD6EE3B14C09E90009A200F /* Frameworks */,
 				9DD6EE3914C09E90009A200F /* Products */,
@@ -196,6 +198,8 @@
 		9DD6EE5714C09E90009A200F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LoginItemHelper.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Sources/Prefix.pch;
 				INFOPLIST_FILE = Sources/Info.plist;
@@ -210,6 +214,8 @@
 		9DD6EE5814C09E90009A200F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LoginItemHelper.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Sources/Prefix.pch;
 				INFOPLIST_FILE = Sources/Info.plist;
