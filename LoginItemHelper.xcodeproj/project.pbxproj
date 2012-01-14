@@ -41,7 +41,7 @@
 		9DD6EE2D14C09E90009A200F = {
 			isa = PBXGroup;
 			children = (
-				9DD6EE4214C09E90009A200F /* LoginItemHelper */,
+				9DD6EE4214C09E90009A200F /* App */,
 				9DD6EE3B14C09E90009A200F /* Frameworks */,
 				9DD6EE3914C09E90009A200F /* Products */,
 			);
@@ -65,7 +65,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9DD6EE4214C09E90009A200F /* LoginItemHelper */ = {
+		9DD6EE4214C09E90009A200F /* App */ = {
 			isa = PBXGroup;
 			children = (
 				9DD6EE5E14C0B549009A200F /* AppDelegate.h */,
@@ -75,6 +75,7 @@
 				9DD6EE6214C0B549009A200F /* MainMenu.xib */,
 				9DD6EE6314C0B549009A200F /* Prefix.pch */,
 			);
+			name = App;
 			path = LoginItemHelper;
 			sourceTree = "<group>";
 		};
@@ -198,6 +199,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Sources/Prefix.pch;
 				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = ../../Resources/Helper.prefix;
+				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -209,6 +213,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Sources/Prefix.pch;
 				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = ../../Resources/Helper.prefix;
+				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
